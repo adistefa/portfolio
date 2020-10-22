@@ -4,6 +4,7 @@ body
     color: #333;
     background-color: #fff;
     letter-spacing: 1px;
+    width: 100%;
 }
 
 .overlay
@@ -32,12 +33,26 @@ body
 {
 	left: 20px;
 	background-image: url(../img/icons/prev.png);
+    margin-top: 6em;
 }
 
 .slides-navigation a.next
 {
 	right: 20px;
 	background-image: url(../img/icons/next.png);
+    margin-top: 6em;
+}
+
+.slides-pagination a 
+{
+    color: white;
+    border-color: #575452;
+    border: 1px solid white;
+}
+
+.slides-pagination a.current
+{
+    background: white;
 }
 
 .titleMessage
